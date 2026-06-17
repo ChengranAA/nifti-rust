@@ -1,0 +1,15 @@
+[package]
+name = "nifti-sys"
+version = "0.1.0"
+edition = "2024"
+links = "nifti"
+
+[lib]
+name = "nifti_sys"
+path = "src/lib.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.72.1"
+cmake = "0.1"
