@@ -151,6 +151,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "nifti-example"
+version = "0.1.0"
+dependencies = [
+ "nifti",
+]
+
+[[package]]
 name = "nifti-sys"
 version = "0.1.0"
 dependencies = [
